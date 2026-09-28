@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawfect Groom | We'll Be Right Back</title>
+  <meta name="description" content="Pawfect Groom is currently getting a little makeover. We'll be back soon!">
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #4a3f3a;
+      background:
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,.8) 0 55px, transparent 56px),
+        radial-gradient(circle at 85% 75%, rgba(255,255,255,.65) 0 70px, transparent 71px),
+        linear-gradient(135deg, #fce8ed 0%, #f7e9df 48%, #f2eee9 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .page {
+      width: min(900px, 92%);
+      text-align: center;
+      padding: 50px 25px;
+      position: relative;
+    }
+
+    .paw {
+      position: absolute;
+      opacity: .12;
+      font-size: 70px;
+      user-select: none;
+    }
+
+    .paw.one { top: 5%; left: 7%; transform: rotate(-20deg); }
+    .paw.two { bottom: 8%; right: 7%; transform: rotate(18deg); }
+    .paw.three { top: 28%; right: 4%; font-size: 45px; transform: rotate(12deg); }
+
+    .logo {
+      width: 110px;
+      height: 110px;
+      margin: 0 auto 25px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.75);
+      border: 2px solid rgba(184,107,119,.22);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      box-shadow: 0 12px 35px rgba(120,80,70,.10);
+    }
+
+    .brand {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      letter-spacing: .02em;
+      color: #b86b77;
+      font-weight: 800;
+    }
+
+    .tagline {
+      margin: 8px 0 30px;
+      color: #8c6e62;
+      font-size: 1rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 70px;
+      height: 4px;
+      margin: 0 auto 30px;
+      border-radius: 10px;
+      background: #d99aa6;
+    }
+
+    h2 {
+      margin: 0 0 15px;
+      font-size: clamp(1.8rem, 4vw, 2.7rem);
+      color: #604e47;
+    }
+
+    .message {
+      max-width: 650px;
+      margin: 0 auto 28px;
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: #675b55;
+    }
+
+    .status {
+      display: inline-block;
+      padding: 11px 22px;
+      border-radius: 30px;
+      background: rgba(255,255,255,.72);
+      color: #9d6570;
+      font-weight: 700;
+      margin-bottom: 30px;
+      border: 1px solid rgba(184,107,119,.16);
+    }
+
+    .contact {
+      margin-top: 12px;
+      padding: 22px;
+      background: rgba(255,255,255,.55);
+      border-radius: 22px;
+      display: inline-block;
+      box-shadow: 0 10px 30px rgba(120,80,70,.07);
+    }
+
+    .contact p {
+      margin: 5px 0;
+      color: #625650;
+    }
+
+    .contact a {
+      color: #b86b77;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 35px;
+      font-size: .85rem;
+      color: #9a8780;
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 35px 18px; }
+      .logo { width: 90px; height: 90px; font-size: 40px; }
+      .message { font-size: 1rem; }
+      .paw.one { left: 0; }
+      .paw.two { right: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="paw one">🐾</div>
+    <div class="paw two">🐾</div>
+    <div class="paw three">🐾</div>
+
+    <div class="logo">🐶</div>
+
+    <h1 class="brand">Pawfect Groom</h1>
+    <p class="tagline">Your Pet · Our Priority</p>
+
+    <div class="divider"></div>
+
+    <div class="status">🐾 Website Under Maintenance</div>
+
+    <h2>We’re giving our website a little groom!</h2>
+
+    <p class="message">
+      Our website is currently getting a Pawfect makeover.
+      We’ll be back online soon, looking fresh and ready to help
+      keep your furry friends happy, healthy and looking their best.
+    </p>
+
+    <div class="contact">
+      <p><strong>Need to make an appointment?</strong></p>
+      <p>
+        WhatsApp:
+        <a href="https://wa.me/27762241399">076 224 1399</a>
+      </p>
+      <p>
+        Email:
+        <a href="mailto:snshivani84@gmail.com">snshivani84@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      Mobile Pet Grooming · Cape Town Northern Suburbs
+    </div>
+  </main>
+</body>
+</html>
